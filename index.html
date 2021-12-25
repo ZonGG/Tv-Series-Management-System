@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>User Login</title>
+  <link rel="icon" href="pic/icon.png" type="image" sizes="16x16">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" >
+  <link rel="stylesheet" href="css/userlogin.css" type="text/css">
+</head>
+
+
+<body>
+  <div class="header">
+    <img src="pic/logo.png" alt="Logo" style="height:75px;">
+    <h1>TMFlix</h1></img> </div>
+  <br>
+  	<div><h1 class="title">USER</h1></div>
+
+  		<center><h2>LOGIN</h2></center>
+
+	<form action="userlogin.php" method="POST">
+
+      <div class="container">
+        <label> User Email</label> <br><br>
+  			<input type="text" placeholder="Enter Email" name="Member_Email" class="text" id="Member_Email" required><br><br><br>
+        <label> Password</label> <br><br>
+  			<input type="password" placeholder="Enter Password" name="Member_Password" class="text" id="Member_Password" required><br>
+        <br><br>
+  			<div class="submit"> <input name="submit" type="submit" value="Login"></button> </div>
+          <br> <br> <br>
+            <p>Switch to <a href="adminlogin.html" style="color:red;">ADMIN</a></p>
+            <p>No Account? <a href="user_register.php" style="color:red;"> Sign Up!</a></p>
+        </div>
+  		</form>
+      <div class="special"></div>
+        <div class="special"></div>
+  <footer class="footer">
+    <p> Made by G6. All rights not reserved. </p>
+  </footer>
+</body>
+</html>

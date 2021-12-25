@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Admin Login</title>
+  <link rel="icon" href="pic/icon.png" type="image" sizes="16x16">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" >
+  <link rel="stylesheet" href="css/adminlogin.css">
+  <script type="text/javascript" src="js/admin_login.js"> </script>
+</head>
+
+
+<body>
+  <div class="header">
+    <img src="pic/logo.png" alt="Logo" style="width: 200px; height:200px; background-color:transparent;">
+    <h1 style="color: wheat;">TMFlix</h1></img> </div>
+  <br>
+  	<div><h1 class="title" style="color: wheat;">ADMIN</h1></div>
+
+  		<center><h2 style="color: wheat;">LOGIN</h2></center>
+
+	<form name="myForm" action="adminlogin.php" method="POST">
+
+      <div class="container">
+        <label> ID Number</label> <br><br>
+  			<input type="text" placeholder="Enter ID" name="admin_id" class="text" id="admin_id" ><br><br><br>
+        <label> Password</label> <br><br>
+  			<input type="password" placeholder="Enter Password" name="password" class="text" id="password" ><br>
+        <br><br>
+  			<div  class="submit"> <input name="submit" type="submit" onclick="return(validate())" value="Login now"></button> </div>
+          <br> <br> <br>
+            <p>Switch to <a href=index.html >USER</a> </p>
+      </div>
+  		</form>
+
+  </body>
+
+
+
+  <footer class="footer">
+    <p> Made by Group 6. All rights not reserved. </p>
+  </footer>
+</body>
+
+</html>

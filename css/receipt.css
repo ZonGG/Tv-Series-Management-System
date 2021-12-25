@@ -1,0 +1,40 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+table .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+th{
+    text-align: center;
+    padding: 8px;
+    color:#fff;
+    background-color: #FB3640;
+    font-weight:bolder;
+}
+td{
+    padding: 16px 8px;
+    width: 80px;
+    height: 48px;
+    padding: 8px;
+    border-bottom: 2px solid #FB3640;
+    text-align: center;
+}
+
+td:last-child{
+    text-align: center;
+}
+th:last-child{
+    text-align: center;
+}

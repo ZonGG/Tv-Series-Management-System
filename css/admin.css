@@ -1,0 +1,185 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #242526;
+    max-width: auto;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    position: relative;
+    z-index: 1;
+    font-family: sans-serif;
+    }
+
+div.header{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border-bottom: 50px solid #1D3461;
+    box-shadow: 3px 3px 5px grey;
+    position: relative;
+      clear:both;
+        }
+
+        table {
+        border-collapse: collapse;
+        width: 100%;
+        color: wheat;
+        font-family: monospace;
+        font-size: 20px;
+        text-align: center;
+        }
+
+        th {
+        background-color: #1D3461;
+        color: white;
+        }
+
+        tr:nth-child(even) {background-color: lightgrey;color:#1D3461;}
+
+
+  #side a {
+  position: fixed;
+  left: -90px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 150px;
+  z-index:3;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#side a:hover {
+  left: 0;
+}
+
+#Dashboard{
+  top: 8%;
+  background-color: #bb1d1d;
+}
+
+#SeriesList {
+  top: 13%;
+  background-color: #eb790e;
+}
+
+#GenreList {
+  top: 18%;
+  background-color: #e7e415;
+}
+
+#ActorList {
+  top: 23%;
+  background-color: #1bc21b;
+}
+
+#DirectorList {
+  top: 28%;
+  background-color: #1e3dc4;
+}
+
+#AwardList {
+  top: 33%;
+  background-color: #bd1772;
+}
+
+#Logout{
+  top: 38%;
+  background-color: #9a13a7;}
+
+  .footer{
+    background-color: #1D3461;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+    bottom: 10px;
+    z-index: 5;
+}
+
+a.acc{
+    text-decoration:none;
+    color:rgba(16, 148, 23, 0.767);
+    font-weight: bold;
+}
+
+a.acc:hover{
+  color:rgb(243, 0, 0);
+  transition:0.3s;;
+}
+
+a.deletem{
+    text-decoration:none;
+    color:rgba(0, 0, 255, 0.767);
+    font-weight: bold;
+}
+
+a.deletem:hover{
+  color:rgb(243, 0, 0);
+  transition:0.3s;;
+}
+
+  
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen {
+  .box{
+    width: 50%;
+  }
+  .popup{
+    width: 50%;
+  }
+}
